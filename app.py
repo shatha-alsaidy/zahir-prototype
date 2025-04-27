@@ -1,6 +1,10 @@
 import os
-os.environ["STREAMLIT_SERVER_ENABLE_FILE_WATCHER"] = "false"
-os.environ['FARASA_HOME'] = '/mount/src/zahir-prototype/farasa_home'
+from pathlib import Path
+FARASA_HOME = Path("/tmp/farasa_home")
+FARASA_HOME.mkdir(exist_ok=True, parents=True)
+import farasa
+farasa.base.FarasaBase.base_dir = FARASA_HOME
+farasa.base.FarasaBase.bin_dir  = FARASA_HOME / "farasa_bin"
 import torch
 torch.classes.__path__ = []
 import streamlit as st

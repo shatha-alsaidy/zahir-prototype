@@ -1,6 +1,6 @@
 import os
 os.environ["STREAMLIT_SERVER_ENABLE_FILE_WATCHER"] = "false"
-os.environ["FARASA_HOME"] = "/tmp/.farasa"
+os.environ['FARASA_HOME'] = '/mount/src/zahir-prototype/farasa_home'
 import torch
 torch.classes.__path__ = []
 import streamlit as st

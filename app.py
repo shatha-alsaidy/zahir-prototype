@@ -2,9 +2,9 @@ import os
 from pathlib import Path
 FARASA_HOME = Path("/tmp/farasa_home")
 FARASA_HOME.mkdir(exist_ok=True, parents=True)
-import farasa
-farasa.base.FarasaBase.base_dir = FARASA_HOME
-farasa.base.FarasaBase.bin_dir  = FARASA_HOME / "farasa_bin"
+from farasa.__base import FarasaBase
+FarasaBase.base_dir = FARASA_HOME
+FarasaBase.bin_dir  = FARASA_HOME / "farasa_bin"
 import torch
 torch.classes.__path__ = []
 import streamlit as st

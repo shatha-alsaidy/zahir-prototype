@@ -27,8 +27,8 @@ Security and regulatory authorities responsible for monitoring digital platforms
 ZAHIR is an AI-powered detection system that analyzes text content and identifies hidden or encoded expressions that may indicate suspicious or prohibited activity.
 
 It uses:
-- Advanced NLP models for Arabic and dialect understanding  
-- Semantic analysis to detect implicit meanings  
+- Advanced **NLP** models for Arabic and dialect understanding  
+- **Semantic analysis** to detect implicit meanings  
 - Synthetic data generation to simulate real-world encoded language patterns  
 
 The system transforms raw text into structured insights for faster and more accurate decision-making.
@@ -48,14 +48,14 @@ The system transforms raw text into structured insights for faster and more accu
 
 ## 🧰 Built With
 
-Python: Core development environment and file handling  
-Streamlit: Interactive user interface for text analysis and visualization  
-Farasa: Arabic text processing (tokenization, segmentation, POS tagging) 
-PyTorch: Deep learning framework for model execution  
-Sentence-Transformers (intfloat/multilingual-e5-large): Semantic embedding generation for text understanding  
-Hugging Face Transformers (xlm-roberta-large-xnli): Zero-shot text classification  
-Sentence-Transformers Utilities (cosine similarity): Semantic similarity scoring between text embeddings  
-Hugging Face Datasets (mOSCAR): Large-scale multilingual Arabic corpora for training and evaluation (streaming mode, multiple dialect configs)  
+**Python**: Core development environment and file handling  
+**Streamlit**: Interactive user interface for text analysis and visualization  
+**Farasa**: Arabic text processing (tokenization, segmentation, POS tagging) 
+**PyTorch**: Deep learning framework for model execution  
+**Sentence-Transformers (intfloat/multilingual-e5-large)**: Semantic embedding generation for text understanding  
+**Hugging Face Transformers (xlm-roberta-large-xnli)**: Zero-shot text classification  
+**Sentence-Transformers Utilities (cosine similarity)**: Semantic similarity scoring between text embeddings  
+**Hugging Face Datasets (mOSCAR)**: Large-scale multilingual Arabic corpora for training and evaluation (streaming mode, multiple dialect configs)  
 
 ---
 
